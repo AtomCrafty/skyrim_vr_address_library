@@ -1072,6 +1072,8 @@ id,sse,vr,status,name
 67240,0x140c11430,0x140c4dd80,4,QuickLoot::
 67243,0x140c11ae0,0x140c4e480,4,void ControlMap::PushInputContext(InputContextID a_context)
 67244,0x140c11bc0,0x140c4e560,4,void ControlMap::PopInputContext(InputContextID a_context)
+67254,0x140C120B0,0x140C4EA50,4,void ControlMap::RefreshLinkedMappings()
+67255,0x140C123A0,0x140C4ED40,4,void ControlMap::Clear()
 67315,0x140c150b0,0x140c519e0,3,void BSInputDeviceManager::PollInputDevices_140c108 (float a_secsSinceLastFrame)
 67373,0x140c165e0,0x140c533a0,4,DirectInput8::IDirectInputDevice8A* BSDirectInputManager::CreateDeviceWithGUID(WinAPI::GUID* a_guid)
 67374,0x140c16620,0x140c533e0,4,void BSDirectInputManager::ReleaseDevice(DirectInput8::IDirectInputDevice8A* a_device)
